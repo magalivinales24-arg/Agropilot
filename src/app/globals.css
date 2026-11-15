@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Variables de diseño AgroPilot ─────────────────────────────────────── */
+:root {
+  --color-primary:   #1B3A5C;
+  --color-secondary: #2D7A3A;
+  --color-accent:    #F59E0B;
+  --color-dark:      #0F1E30;
+  --color-light:     #F4F7FA;
+}
+
+/* ─── Reset y base ───────────────────────────────────────────────────────── */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-brand-light text-brand-dark font-sans antialiased;
+  min-height: 100vh;
+}
+
+/* ─── Utilidades tipográficas ────────────────────────────────────────────── */
+@layer components {
+  .heading-xl {
+    @apply text-4xl font-bold tracking-tight text-brand-primary;
+  }
+  .heading-lg {
+    @apply text-2xl font-semibold tracking-tight text-brand-primary;
+  }
+  .heading-md {
+    @apply text-xl font-semibold text-brand-primary;
+  }
+
+  /* Botones base */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-md bg-brand-primary px-5 py-2.5
+           text-sm font-semibold text-white shadow-sm transition
+           hover:bg-brand-dark focus:outline-none focus:ring-2 focus:ring-brand-primary focus:ring-offset-2;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-md border border-brand-primary px-5 py-2.5
+           text-sm font-semibold text-brand-primary shadow-sm transition
+           hover:bg-brand-primary hover:text-white focus:outline-none focus:ring-2 focus:ring-brand-primary focus:ring-offset-2;
+  }
+
+  /* Card base */
+  .card {
+    @apply rounded-xl bg-white p-6 shadow-sm border border-gray-100;
+  }
+}

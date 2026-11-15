@@ -1,0 +1,7 @@
+# Librería de utilidades
+# Se agrega en etapas siguientes:
+# - prisma.ts     → cliente Prisma singleton
+# - auth.ts       → configuración NextAuth
+# - permissions.ts → verificación de roles
+# - pdf.ts        → generación de PDFs
+# - qr.ts         → generación de QR
