@@ -42,7 +42,7 @@ export default function CapacitacionesPage() {
             </span>
             <h3 className="heading-md mt-1 mb-2">{cap.titulo}</h3>
             <p className="text-sm text-gray-500 mb-4">Fecha: {cap.fecha}</p>
-            <a href="#" className="btn-primary text-xs py-1.5 px-3">Ver detalle</a>
+            <link href="#" className="btn-primary text-xs py-1.5 px-3">Ver detalle</link>
           </div>
         ))}
       </div>
