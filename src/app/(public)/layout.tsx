@@ -11,9 +11,9 @@ export default function PublicLayout({
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <span className="text-xl font-bold tracking-wide">AgroPilot</span>
           <ul className="hidden gap-6 text-sm font-medium md:flex">
-            <li><a href="/" className="hover:text-brand-accent transition">Inicio</a></li>
-            <li><a href="/capacitaciones" className="hover:text-brand-accent transition">Capacitaciones</a></li>
-            <li><a href="/login" className="hover:text-brand-accent transition">Acceso privado</a></li>
+            <li><link href="/" className="hover:text-brand-accent transition">Inicio</a></li>
+            <li><link href="/capacitaciones" className="hover:text-brand-accent transition">Capacitaciones</a></li>
+            <li><link href="/login" className="hover:text-brand-accent transition">Acceso privado</a></li>
           </ul>
         </nav>
       </header>
