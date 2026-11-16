@@ -18,9 +18,9 @@ export default async function CapacitacionDetallePage({ params }: Props) {
 
   return (
     <div className="max-w-4xl mx-auto px-6 py-16">
-      <a href="/capacitaciones" className="text-sm text-brand-secondary hover:underline mb-6 block">
+      <link href="/capacitaciones" className="text-sm text-brand-secondary hover:underline mb-6 block">
         ← Volver a capacitaciones
-      </a>
+      </link>
 
       <div className="card">
         <span className="text-xs font-semibold text-brand-secondary uppercase tracking-wide">
