@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from 'next/Link';
 /** Layout compartido para las rutas públicas (/, /capacitaciones, /verificar) */
 export default function PublicLayout({
   children,
