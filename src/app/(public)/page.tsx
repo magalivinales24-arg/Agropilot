@@ -21,9 +21,9 @@ export default function HomePage() {
           Formación técnica en maquinaria pesada, drones agrícolas y más.
           Operamos en Argentina, Brasil, Paraguay y Uruguay.
         </p>
-        <link href="/capacitaciones" className="btn-primary bg-brand-accent text-brand-dark hover:bg-yellow-400">
+        <Link href="/capacitaciones" className="btn-primary bg-brand-accent text-brand-dark hover:bg-yellow-400">
           Ver capacitaciones
-        </link>
+        </Link>
       </section>
 
       {/* Secciones provisionales */}
