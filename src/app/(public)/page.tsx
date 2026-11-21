@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-
+import Link from "next/link";
 export const metadata: Metadata = {
   title: "Inicio",
   description: "Bienvenido a AgroPilot — Capacitaciones y certificaciones en maquinaria pesada y drones agrícolas.",
